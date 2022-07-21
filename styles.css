@@ -1,0 +1,17 @@
+@charset"utf-8" ;
+
+ul{
+    list-style: none;
+}
+
+.tile {
+
+    width:100px; 
+
+    height:100px;
+
+    font-family:arial blue;
+
+    font-size: x-large;
+
+  }

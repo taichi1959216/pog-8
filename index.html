@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./js/styles.css">
+    <title>最終課題</title>
+</head>
+
+<body>
+
+    <center>
+
+        <h1>最終課題</h1>
+
+        <h2>パズル</h2>
+
+        <div id="puzzle">
+
+            <button id="t0" class="btn btn-secondary tile" onclick="pushed(this.id)" > </button> 
+            <button id="t1" class="btn btn-secondary tile" onclick="pushed(this.id)" >1</button> 
+            <button id="t2" class="btn btn-secondary tile" onclick="pushed(this.id)" >2</button><br />
+            <button id="t3" class="btn btn-secondary tile" onclick="pushed(this.id)" >3</button> 
+            <button id="t4" class="btn btn-secondary tile" onclick="pushed(this.id)" >4</button> 
+            <button id="t5" class="btn btn-secondary tile" onclick="pushed(this.id)" >5</button><br />
+            <button id="t6" class="btn btn-secondary tile" onclick="pushed(this.id)" >6</button> 
+            <button id="t7"  class="btn btn-secondary tile" onclick="pushed(this.id)" >7</button> 
+            <button id="t8" class="btn btn-secondary tile" onclick="pushed(this.id)" >8</button>
+
+        </div>
+
+        <br>
+
+        <button class="btn btn-primary" onclick="randomTaslar()">シャッフル</button>
+
+    </center>
+
+    </div>
+<!-- jQueryの読み込み -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!-- chartの読み込み -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.js" integrity="sha512-5m2r+g00HDHnhXQDbRLAfZBwPpPCaK+wPLV6lm8VQ+09ilGdHfXV7IVyKPkLOTfi4vTTUVJnz7ELs7cA87/GMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="./js/main.js"></script>
+<script src="./js/jquery-test.js"></script>
+<script src="./js/chart-test.js"></script>
+
+</body>
+</html>
